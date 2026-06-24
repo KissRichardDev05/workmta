@@ -1,6 +1,11 @@
+:root {
+    --server-color: rgba(255, 1, 189, 0.67);
+}
+
+
 body {
     background-color: rgba(15, 15, 15, 0.92);
-    color: white;
+    color: var(--server-color);
 }
 
 main a {
@@ -9,7 +14,7 @@ main a {
 }
 
 .nav {
-    background-color: rgba(43, 3, 88, 0.92);
+    background-color: var(--server-color);
 }
 
 .nav a {
@@ -43,7 +48,7 @@ header {
     background-color: rgba(15, 15, 15, 0.5);
     text-align: center;
     width: 30rem;
-    color: lightpink;
+    color: var(--server-color);
 }
 
 .adiusz-card {
@@ -61,7 +66,14 @@ header {
 .team {
     color: white;
 }
-
+.div-top-border {
+    border-top: 10px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: double;
+    border-color: rgba(255, 1, 189, 0.67);
+}
 /* */
 .social-icons {
     display: flex;
