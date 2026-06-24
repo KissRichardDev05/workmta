@@ -1,0 +1,105 @@
+body {
+    background-color: rgba(15, 15, 15, 0.92);
+    color: white;
+}
+
+main a {
+    text-decoration: none;
+    font-size: large;
+}
+
+.nav {
+    background-color: rgba(43, 3, 88, 0.92);
+}
+
+.nav a {
+    color: white;
+}
+
+.nav-link .active {
+    font-style: italic;
+    text-decoration: double;
+    color: blue;
+}
+
+.errNotfound {
+    border-color: red;
+    color: white;
+    justify-content: center;
+
+}
+
+header {
+    background-image: url('../kepek/mta-screen_2013-01-06_19-53-05.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 28rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overflow {
+    background-color: rgba(15, 15, 15, 0.5);
+    text-align: center;
+    width: 30rem;
+    color: lightpink;
+}
+
+.adiusz-card {
+    background-color: red;
+    color: white;
+}
+.wolfy-card {
+    background-color: blue;
+    color: white;
+}
+.rezzy-card {
+    background-color: green;
+    color: white;
+}
+.team {
+    color: white;
+}
+
+/* */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    /* Távolság az ikonok között */
+    padding: 1rem;
+}
+
+.icon {
+    text-decoration: none;
+    font-size: 2rem;
+    /* Itt állítod az ikonok MÉRETÉT */
+    color: #fff;
+    /* Alapértelmezett szín (pl. fehér) */
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/* Egyszerű lebegő (hover) effektusok a saját színeikkel */
+/* Hover effektek a kért közösségi oldalakhoz */
+.icon.facebook:hover {
+    color: #1877f2;
+    transform: scale(1.15);
+}
+
+.icon.youtube:hover {
+    color: #ff0000;
+    transform: scale(1.15);
+}
+
+.icon.discord:hover {
+    color: #5865f2;
+    transform: scale(1.15);
+}
+
+/* A TikTok jellegzetes neon-kék/vörös árnyalata helyett egy tiszta fekete vagy élénk szín */
+.icon.tiktok:hover {
+    color: #00f2fe;
+    /* Neon ciánkék a TikTok logóból */
+    transform: scale(1.15);
+}
