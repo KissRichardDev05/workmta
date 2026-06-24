@@ -12,7 +12,8 @@ main a {
 }
 
 .nav {
-    background-color: rgba(255, 1, 189, 0.67);
+    /*background-color: rgba(255, 1, 189, 0.67);*/
+    background-color: blue;
 }
 
 .nav a {
