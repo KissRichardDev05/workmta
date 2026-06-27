@@ -3,7 +3,7 @@ body {
     color: rgba(255, 1, 189, 0.67);
 }
 html h1 {
-    background-color: rgba(15, 15, 15, 0.92);
+    background-color: transparent;
     color: rgba(255, 1, 189, 0.67);
 }
 main a {
