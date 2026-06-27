@@ -115,11 +115,6 @@ header {
     transform: scale(1.15);
 }
 
-@media screen and (width >= 900px) {
-  main {
-    padding: 1rem 3rem;
-  }
-}
 
 /* Nested within another conditional at-rule */
 @supports (display: flex) {
