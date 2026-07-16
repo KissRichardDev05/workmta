@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootsstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="./bootsstrap/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <ul class="nav nav-pills justify-content-center ">
+
+        <li class="nav-item">
+            <a class="nav-link " href="index.html">Főoldal</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="Shop.html">WorkPont-shop</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="PremiumMember.html">Prémium Tagság</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="Rules.html">Szabályzat</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link " href="#">UCP</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link " href="https://goodlife-mta.hungarianforum.com/forum">Fórum</a>
+        </li>
+    </ul>
+    <main class="rules-container my-5">
+        <div class="text-center mb-5">
+            <h1 class="display-4 text-uppercase fw-bold" style="color: #ff00ff; text-shadow: 0 0 10px rgba(255, 0, 255, 0.3);">Szerverszabályzat</h1>
+            <p class="text-muted">Kérünk, hogy a kulturált játékélmény érdekében tartsd be az alábbi pontokat!</p>
+        </div>
+
+        <div class="accordion" id="rulesAccordion">
+            
+            <div class="accordion-item mb-3">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <i class="fa-solid fa-gavel me-2"></i> 1. Általános Szabályok
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#rulesAccordion">
+                    <div class="accordion-body">
+                        <ul>
+                            <li><strong>Szerverminősítés:</strong> Tilos a szerver, a vezetőség vagy más játékosok minősítése, lejáratása.</li>
+                            <li><strong>Csalás / Segédprogramok:</strong> Bármilyen külső előnyhöz juttató program használata azonnali, örökös kitiltást von maga után.</li>
+                            <li><strong>Hirdetés:</strong> Más szerverek, közösségek reklámozása szigorúan tilos!</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item mb-3">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <i class="fa-solid fa-users me-2"></i> 2. Alapvető RP Fogalmak & Szabályok
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#rulesAccordion">
+                    <div class="accordion-body">
+                        <ul>
+                            <li><strong>DM (Deathmatch):</strong> Tilos ok nélküli emberölést elkövetni.</li>
+                            <li><strong>RK (Revenge Kill):</strong> Halálod után nem állhatsz bosszút a gyilkosodon.</li>
+                            <li><strong>Powergaming (PG):</strong> Tilos olyan dolgot tenni a játékban, amit a valóságban sem tudnál megtenni (pl. egyedül nekirontani 5 fegyveresnek).</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item mb-3">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <i class="fa-solid fa-user-shield me-2"></i> 3. Felhasználó & Karakter
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#rulesAccordion">
+                    <div class="accordion-body">
+                        <p>A felhasználód és a karaktered védelme a saját felelősséged. Tilos az accountok megosztása, kereskedelme valós pénzért (OOC kereskedelem).</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+</body>
+</html>

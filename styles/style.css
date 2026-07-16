@@ -132,6 +132,83 @@ header {
     transform: scale(1.15);
 }
 
+/* --- SZABÁLYZAT GLOBÁLIS KONTÉNER --- */
+.rules-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* --- BOOTSTRAP ACCORDION SÖTÉTÍTÉS --- */
+.accordion-item {
+    background-color: #1a1a1a !important; /* Sötét háttér */
+    border: 1px solid #333 !important;
+    border-radius: 8px !important;
+    overflow: hidden;
+}
+
+/* A harmonika gomb alapállapotban */
+.accordion-button {
+    background-color: #1a1a1a !important;
+    color: #fff !important;
+    font-weight: 600;
+    font-size: 18px;
+    box-shadow: none !important;
+    transition: all 0.3s ease;
+}
+
+/* A harmonika gomb, ha le van nyitva (Active) */
+.accordion-button:not(.collapsed) {
+    background-color: #222 !important;
+    color: #ff00ff !important; /* Aktív állapotban rózsaszín szöveg */
+    border-bottom: 2px solid #ff00ff !important; /* Rózsaszín elválasztó csík */
+}
+
+/* A kis nyíl ikon színe */
+.accordion-button::after {
+    filter: invert(1); /* Fehérré teszi a nyilat alapból */
+}
+
+.accordion-button:not(.collapsed)::after {
+    filter: invert(34%) sepia(90%) saturate(4100%) hue-rotate(295deg) brightness(100%) contrast(105%); /* Rózsaszínre színezi a nyilat lenyitáskor */
+}
+
+/* A harmonika belső szöveges része */
+.accordion-body {
+    background-color: #121212 !important;
+    color: #ccc !important;
+    line-height: 1.8;
+    font-size: 15px;
+}
+
+/* Listák dizájnja a szabályzatban */
+.accordion-body ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.accordion-body ul li {
+    margin-bottom: 12px;
+    position: relative;
+    padding-left: 25px;
+}
+
+/* Egyedi stílusos pontok a listák elé */
+.accordion-body ul li::before {
+    content: "■";
+    position: absolute;
+    left: 0;
+    color: #ff00ff; /* Rózsaszín kis négyzetek a listapontok helyett */
+    font-size: 12px;
+    top: 1px;
+}
+
+/* Kiemelések színe */
+.accordion-body strong {
+    color: #fff;
+}
+
+
 
 @media screen and (max-width: 768px) {
     body {
